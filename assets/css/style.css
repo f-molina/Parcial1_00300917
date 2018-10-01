@@ -1,5 +1,6 @@
 :root{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -30,6 +31,7 @@ body{
 
 p{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 #banner{
@@ -80,6 +82,8 @@ p{
 .box .inner p{
     font-size: 1em;
     color: black;
+    padding: 0 0.8em;
+    text-align: justify;
 }
 
 .box .inner h3{
@@ -143,3 +147,28 @@ p{
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+.box .inner a button:hover{
+    background: white;
+    cursor: pointer;
+    color: orange;
+}
+
+#footer i{
+    float: left;
+    padding-right: 0.5em;
+}
+
+.contact-info p{
+    text-align: justify;
+}
+
+.contact-info{
+    background-color: rgba(102, 101, 101, 0.801);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .boxes{
+      grid-template-columns: none;
+    }
