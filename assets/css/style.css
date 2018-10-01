@@ -169,6 +169,6 @@ p{
 }
 
 @media (max-width: 768px) {
-    .boxes{
+    .boxes, .all-form{
       grid-template-columns: none;
     }
