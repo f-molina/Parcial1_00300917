@@ -8,14 +8,28 @@ body{
 
 .menu{
     background-color: black;
-    color: white;
     display: flex;
-    justify-content: space-between;
+    color: white;
+}
+
+#banner h1, p, i{
+    color: white;
+}
+
+#banner h1{
+    font-family: 'Monoton', cursive;
+    font-size: 5em;
+    font-weight: 200;
 }
 
 .menu ul li{
     list-style: none;
     display: inline-block;
+    padding: 0 7em;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
 }
 
 #banner{
@@ -32,6 +46,10 @@ body{
 #banner .inner{
     text-align: center;
     position: relative;
+}
+
+#main{
+    margin: 2em 0;
 }
 
 .boxes{
@@ -108,8 +126,20 @@ body{
 
 #footer{
     background-color: black;
+    color: white;
 }
 
-#footer .social, .more{
+#footer .social ul li{
     color: white;
+    list-style: none;
+}
+
+#footer .more ul li{
+    color: white;
+    list-style: none;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
